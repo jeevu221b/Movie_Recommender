@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'honeybadger.contrib.DjangoHoneybadgerMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -48,7 +49,22 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
+
+
+HONEYBADGER = {
+    'API_KEY': 'hbp_2AKL7yaM9fGujohj7yWpw0lNRP1vvb3ST8gR'
+}
+
+
+HONEYBADGER = {
+    'HONEYBADGER_FORCE_SYNC': True
+}
+
+HONEYBADGER = {
+    'HONEYBADGER_FORCE_REPORT_DATA': True
+}
 
 ROOT_URLCONF = 'movie_recommender.urls'
 

@@ -1,0 +1,9 @@
+# Ignore pycache
+__pycache__/
+# Ignore python compiled files
+*.pyc
+# Ignore python test cache
+__pycache__/
+# Ignore .DS_Store
+.DS_Store
+

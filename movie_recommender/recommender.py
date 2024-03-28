@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # %%
-df = pd.read_csv('/Users/jeevu/Desktop/movie_recommender/movie_recommender/tmdb_5000_movies.csv')
+df = pd.read_csv('movie_recommender/tmdb_5000_movies.csv')
 
 # %%
 # df["overview"].fillna('', inplace=True)

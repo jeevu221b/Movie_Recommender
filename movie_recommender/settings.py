@@ -68,6 +68,8 @@ HONEYBADGER = {
 
 ROOT_URLCONF = 'movie_recommender.urls'
 
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '51.20.206.230']
+
 
 TEMPLATES = [
     {

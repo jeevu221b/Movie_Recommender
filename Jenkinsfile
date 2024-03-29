@@ -30,8 +30,7 @@ pipeline {
                     
                     // Build and run new container
                     def dockerImage = docker.build("my-django-app:${env.BUILD_NUMBER}", '.')
-                    dockerImage.run("-d -p 8000:8000   n 
-                     `` --label my-django-app") // Runs the Docker image in detached mode, mapping port 5000 on host to port 5000 in the container and adds the 'my-flask-app' label
+                    dockerImage.run("-d -p 8000:8000 --label my-django-app") // Runs the Docker image in detached mode, mapping port 5000 on host to port 5000 in the container and adds the 'my-flask-app' label
                 }
             }
         }

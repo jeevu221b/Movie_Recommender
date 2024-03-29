@@ -16,7 +16,7 @@ pipeline {
                             pip install -r requirements.txt
                             pip install pytest
                             pip install pytest-django
-                            pytest --ds=movie_recommender tests/ 
+                            pytest --ds=movie_recommender.settings_test tests/
                         '''
                     }
                 }

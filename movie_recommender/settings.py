@@ -68,6 +68,7 @@ HONEYBADGER = {
 
 ROOT_URLCONF = 'movie_recommender.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

@@ -1,7 +1,6 @@
 import pytest
 import json
 
-
 @pytest.mark.django_db
 class TestMyView:
     def test_home(self, client):

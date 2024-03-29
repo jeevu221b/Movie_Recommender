@@ -14,9 +14,7 @@ pipeline {
                     docker.image('python:3.9').inside('-u root') {
                         sh '''
                             pip install -r requirements.txt
-                            pip install pytest
-                            pip install pytest-django
-                            pytest --ds=movie_recommender.settings_test tests/
+                            pytest
                         '''
                     }
                 }

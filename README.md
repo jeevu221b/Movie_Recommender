@@ -1,7 +1,7 @@
 
 ## Overview
 
-Movie Recommender API is a simple django app with a POST endpoint which accepts a movie name in the request. Using Scikit library we calulate the TF-IDF score of the movie which is then further used to recommend similar movies.
+Movie Recommender is a simple django app with a POST endpoint which accepts a movie name in the request. Using Scikit library we calulate the TF-IDF score of the movie which is then further used to recommend similar movies.
 
 ## Libraries Used:
 

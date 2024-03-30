@@ -21,3 +21,8 @@ $ pip install requirements.txt
 $ python manage.py runserver
 
     * Running on http://127.0.0.1:8000/
+
+## Demo
+
+![Demo](./demo.png)
+
